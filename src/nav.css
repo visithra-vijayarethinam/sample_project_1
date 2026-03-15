@@ -1,0 +1,35 @@
+/* Removes default browser margins and padding */
+ul {
+    list-style-type: none; /* Removes the bullet points */
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Recommended if you use floats */
+    background-color: #333; /* A dark background color */
+    display: flex; /* Uses flexbox for horizontal layout */
+    
+}
+
+/* Styles the list items for horizontal display */
+li {
+    /* If not using flexbox on the ul, you would use float: left; here */
+}
+
+/* Styles the links inside the list items */
+li a {
+    display: block; /* Makes the entire link area clickable */
+    color: white; /* Text color */
+    text-align: center;
+    padding: 14px 16px; /* Spacing around the text */
+    text-decoration: none; /* Removes the default underline from links */
+    float: right;
+}
+
+/* Change color of links on hover */
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+/* Adds a distinct style to the current/active link */
+.active {
+    background-color: #04AA6D;
+}
