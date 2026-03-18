@@ -10,7 +10,7 @@ function App() {
  <>
     <Nav />
    <div class="main">
-    <h1>This is visithra </h1>
+    <h1>This is visithra login page vi changes </h1>
    </div>
    </> 
    
