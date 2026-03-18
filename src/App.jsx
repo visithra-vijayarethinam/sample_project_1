@@ -7,13 +7,13 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
- <>
-    <Nav />
-   <div class="main">
-    <h1>This is visithra login page vi changes </h1>
-   </div>
-   </> 
-   
+    <>
+      <Nav />
+      <div class="main">
+        <h1>This is visithra login page vi changes vi</h1>
+      </div>
+    </>
+
   )
 }
 
